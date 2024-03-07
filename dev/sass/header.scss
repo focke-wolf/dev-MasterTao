@@ -1,8 +1,54 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+.border {
+    background-color: #282B38;
 }
+.header {
+  position: relative;
+  padding: 25px 0 39px;
+
+   &-logo {
+  max-width: 172px;
+  max-height: 49px;
+}
+
+>.container {
+      display: flex;
+  }
+
+  &-nav {
+      display: flex;
+      width: 100%;
+  }
+
+  &-nav__list {
+      display: flex;
+      gap: 19px;
+      padding: 0;
+      margin: auto;
+      list-style-type: none;
+  }
+
+  &-list-link {
+      padding: 16px 7px 10px;
+      color: #fff;
+      text-decoration: none;
+  }
+
+  &-list-link:hover {
+      color: orange;
+  }
+
+
+
+  &-nav__item {
+      display: flex;
+  }
+
+  .btn-primary {
+      padding: 13px 22px;
+  }
+}
+
+.hamburger {
+  margin-left: auto;
+}
+

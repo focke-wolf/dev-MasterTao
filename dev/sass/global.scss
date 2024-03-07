@@ -1,0 +1,27 @@
+.selection {
+    color: $text-color;
+    background-color: $color-secondary;
+}
+
+
+body {
+    background-color: $bg-primary;
+    color: $text-color;
+    font-family: $font-primary;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 146%;
+    border-radius: 90px;
+    padding: 13px 17px;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.6px;
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    border-color: $color-primary;
+}
